@@ -1,44 +1,70 @@
-<p align="center">
-  <img src="./public/assets/news.svg" alt="KaiOS News" width="125" />
-</p>
+# Getting Started with Create React App
 
-<div align="center">
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![stability-wip](https://img.shields.io/badge/stability-work_in_progress-lightgrey.svg)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+## Available Scripts
 
-</div>
+In the project directory, you can run:
 
-# NextJS News App
+### `npm start`
 
-A News App built using NextJS, utilizing [Guardian API](https://open-platform.theguardian.com/) to fetch the article data.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-> **NOTE:** This is ***not*** an official website, just for experiment purpose.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## User Stories
+### `npm test`
 
-- [ ] The user can browse the latest news from the Guardian API and see the articles collated together.
-- [ ] The user can sort all news based on their sorting strategy (`Newest First` or `Oldest First`).
-- [ ] Allow users to search for articles by entering a search term.
-- [ ] Progressively load more articles by scrolling down the list.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## App Details
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Instructions
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-1. Clone the project repository: `git clone git@github.com:ytliuSVN/next-news-app.git`
-2. Navigate to the project folder: `cd next-news-app`
-3. Install the dependencies: `npm install`
-4. Start the app in the development mode: `npm run dev`
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### `npm run eject`
 
-### Loading Environment Variables
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Copy and setup environment. An example `.env.local`:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-```
-GUARDIAN_API_KEY=
-GUARDIAN_API_URL=https://content.guardianapis.com/
-```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
